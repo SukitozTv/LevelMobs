@@ -1,0 +1,101 @@
+drops:
+  default: # ส่วน default สำหรับดรอปของที่ไม่ค่อยมีค่า
+    items:
+      cobblestone:
+        name: "Cobblestone"
+        chance_drop: 50
+        max_drop: 10
+      dirt:
+        name: "Dirt"
+        chance_drop: 40
+        max_drop: 15
+      stick:
+        name: "Stick"
+        chance_drop: 30
+        max_drop: 5
+      coal:
+        name: "Coal"
+        chance_drop: 20
+        max_drop: 3
+      leather:
+        name: "Leather"
+        chance_drop: 15
+        max_drop: 2
+
+  low:
+    items:
+      gold_ingot:
+        name: "Gold Ingot"
+        chance_drop: 25
+        max_drop: 3
+      iron_ingot:
+        name: "Iron Ingot" # ไอเท็มปกติ
+        chance_drop: 30
+        max_drop: 5
+      emerald:
+        name: "Emerald"
+        chance_drop: 20
+        max_drop: 2 # เพิ่ม Emerald
+      diamond:
+        name: "Gem of Power +1"
+        custom_model_data: 1001
+        lore:
+          - 
+        chance_drop: 10
+        max_drop: 1
+      diamond:
+        name: "Gem of Power +2"
+        custom_model_data: 1002
+        lore:
+          - 
+        chance_drop: 7
+        max_drop: 1
+
+#########################
+  medium:
+    items:
+      diamond:
+        name: "Diamond" # ไอเท็มปกติ
+        chance_drop: 20
+        max_drop: 4
+      lapis_lazuli:
+        name: "Lapis Lazuli"
+        chance_drop: 18
+        max_drop: 3 # เพิ่ม Lapis Lazuli
+      diamond:
+        name: "Gem of Power +3"
+        custom_model_data: 1003
+        lore:
+          - 
+        chance_drop: 15
+        max_drop: 1
+      diamond:
+        name: "Gem of Power +4"
+        custom_model_data: 1004
+        lore:
+          - 
+        chance_drop: 10
+        max_drop: 1
+      
+#########################
+    high:
+    items:
+      netherite_ingot:
+        name: "Netherite Ingot" # ไอเท็มปกติ
+        chance_drop: 12
+        max_drop: 2
+      diamond:
+        name: "Gem of Power +4"
+        custom_model_data: 1004
+        lore:
+          - 
+        chance_drop: 8
+        max_drop: 1
+      diamond:
+        name: "Gem of Power +5"
+        custom_model_data: 1005
+        lore:
+          - 
+        chance_drop: 5
+        max_drop: 1
+

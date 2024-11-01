@@ -1,0 +1,10 @@
+name: LevelMobs
+version: 1.0
+main: me.flukky.levelmobs.LevelMobs
+api-version: 1.21
+commands:
+  levelmobs:
+    description: "Spawn and reload config"
+    usage: "/levelmobs <reload/spawn> <monster_type> <level>"
+    aliases: [lm]
+  
